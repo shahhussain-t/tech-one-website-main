@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechOne</title>
+
+  <!-- custom css link -->
+  <link rel="stylesheet" href="./assets/webpage/style.css">
+
+  <!-- google font link-->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Rubik:wght@400;500;600;700&family=Shadows+Into+Light&display=swap"
+    rel="stylesheet">
+
+  <!--  preload images-->
+  <link rel="preload" as="image" href="./assets/webpage/images/hero-banner.png" media="min-width(768px)">
+
+</head>
+
+<body id="top">
+
+  <!--  #Header -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1>
+        <a href="#" class="logo">Tech One</a>
+      </h1>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+          <li class="nav-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#gallery" class="navbar-link" data-nav-link>Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header-btn-group">
+        <button class="search-btn" aria-label="Search" data-search-btn>
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+
+        <button class="nav-toggle-btn" aria-label="Toggle Menu" data-menu-toggle-btn>
+          <span class="line top"></span>
+          <span class="line middle"></span>
+          <span class="line bottom"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Search Box  -->
+
+  <div class="search-container" data-search-container>
+    <div class="search-box">
+      <input type="search" name="search" aria-label="Search here" placeholder="Search your Products here..."
+        class="search-input">
+      <button class="search-submit" aria-label="Submit search" data-search-submit-btn>
+        <ion-icon name="search-outline"></ion-icon>
+      </button>
+    </div>
+    <button class="search-close-btn" aria-label="Cancel search" data-search-close-btn></button>
+
+  </div>
+
+  <!-- main -->
+
+  <main>
+    <article>
+
+      <!--  hero-->
+
+      <section class="hero" id="home" style="background-image: url('./assets/webpage/images/hero-backg.png')">
+        <div class="container">
+
+          <div class="hero-content">
+            <h2 class="h1 hero-title">All in One <br> E-commerce Platform</h2>
+            <p class="hero-text">Welcome to TechOne,
+              Explore our wide range of products and services, and experience the future of innovation firsthand.</p>
+            <button class="btn">Order Now !</button>
+          </div>
+          <div class="hero-banner">
+            <img src="./assets/webpage/images/hero-banner.png"  alt="Headphone" class="w-100 hero-img">
+          </div>
+        </div>
+      </section>
+      <!-- #promocards -->
+
+      <section class="section section-divider white promo">
+        <div class="container">
+
+          <ul class="promo-list has-scrollbar">
+            <li class="promo-item">
+              <div class="promo-card">
+                <h3 class="h3 card-title">Apple Airpods</h3>
+                <p class="card-text">
+                  Wireless earbuds sleek compact, and immersive sound experience.
+                </p>
+                <img
+                  src="https://www.apple.com/newsroom/images/product/airpods/standard/Apple-AirPods-Pro-2nd-gen-hero-220907.jpg.news_app_ed.jpg"
+                  width="300" height="300"  alt="Apple airpods" class="w-100 card-banner">
+              </div>
+
+            </li>
+            <li class="promo-item">
+              <div class="promo-card">
+                <h3 class="h3 card-title">Activity tracker</h3>
+                <p class="card-text">
+                  Activity tracker is Monitor, analyze, and optimize your fitness and health.
+                </p>
+                <img
+                  src="https://images.unsplash.com/photo-1503328427499-d92d1ac3d174?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8dGVjaCUyMHByb2R1Y3RzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                  width="300" height="300"  alt="Fitness tracker" class="w-100 card-banner">
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+                <h3 class="h3 card-title"> Wrist Watch</h3>
+                <p class="card-text">
+                  Stylish timepiece for on-the-go convenience and fashionable functionality.
+                </p>
+                <img
+                  src="https://images.unsplash.com/photo-1533675180235-0ba57d720b51?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=671&q=80"
+                  width="300" height="300"  alt="Wrist watch" class="w-100 card-banner">
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+                <h3 class="h3 card-title">Samsung USB</h3>
+                <p class="card-text">
+                  High-speed data transfer and reliable connectivity for seamless device
+                </p>
+                <img
+                  src="https://images.unsplash.com/photo-1616323691656-7c948357b157?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+                  width="300" height="300"  alt="Samsung USB" class="w-100 card-banner">
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+                <h3 class="h3 card-title">Sony Camera</h3>
+                <p class="card-text">
+                  Precision optics capturing moments with stunning clarity and detail
+                </p>
+                <img
+                  src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80"
+                  width="300" height="300"  alt="Sony camera " class="w-100 card-banner">
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--  About -->
+
+      <section class="section section-divider gray about" id="about">
+        <div class="container">
+
+          <div class="about-banner">
+            <img src="./assets/webpage/images/hero-banner.png" width="509" height="459"  alt="headphone"
+              class="w-100 about-img">
+          </div>
+
+          <div class="about-content">
+            <h2 class="h2 section-title">
+              AKG Pro Audio K240
+              <span class="span"> Professional Studio Headphones!</span>
+            </h2>
+            <p class="section-text">
+              $101.82 Shipping & Import Fees Deposit to Pakistan Details
+              Available at a lower price from other sellers that may not offer free Prime shipping.
+              Eligible for Return, Refund or Replacement within 30 days of receipt
+            </p>
+            <ul class="about-list">
+
+              <li class="about-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+                <span class="span">Professional studio headphones</span>
+              </li>
+
+              <li class="about-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+                <span class="span">Semi-open</span>
+              </li>
+
+              <li class="about-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+                <span class="span">3 m replaceable cable</span>
+              </li>
+
+              <li class="about-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+                <span class="span">
+                  Audio Interface type</span>
+              </li>
+
+            </ul>
+            <button class="btn btn-hover">Order Now</button>
+          </div>
+        </div>
+      </section>
+      <!-- Prdoucts Menu-->
+      <section>
+        <p class="section-subtitle">Popular Items</p>
+        <ul class="fiter-list">
+          <li><button class="filter-btn  active">Accessories</button></li>
+          <li><button class="filter-btn">Tv & Home</button></li>
+          <li><button class="filter-btn">Watches</button></li>
+          <li><button class="filter-btn">Ipad</button></li>
+          <li><button class="filter-btn">Store</button></li>
+        </ul>
+
+        <section class="section product-menu" id="gallery">
+          <div class="container">
+            <ul class="product-menu-list">
+              <li>
+                <div class="product-menu-card">
+                  <div class="card-banner">
+                    <img src="https://m.media-amazon.com/images/I/61gFrSlmofL._AC_UL400_.jpg" width="300" height="300"
+                       alt="Wrist watch" class="w-100">
+                    <div class="badge">-50%</div>
+                  </div>
+                  <div class="wrapper">
+                    <p class="category">Gaming</p>
+                    <div class="rating-wrapper">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </div>
+                  <h3 class="h3 card-title">Fitness Tracker</h3>
+                  <div class="price-wrapper">
+                    <p class="price-text">Price:</p>
+                    <data class="price">$17.5.00</data>
+                    <del class="del" value="35.00">$35.00</del>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="product-menu-card">
+                  <div class="card-banner">
+                    <img src="https://m.media-amazon.com/images/I/51HhyUqXImL._AC_UL400_.jpg" width="300" height="300"
+                       alt="AirFly Connector" class="w-100">
+                    <div class="badge">-10%</div>
+                  </div>
+                  <div class="wrapper">
+                    <p class="category">Electronics</p>
+                    <div class="rating-wrapper">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </div>
+                  <h3 class="h3 card-title">Bluetooth AirFly SE</h3>
+                  <div class="price-wrapper">
+                    <p class="price-text">Price:</p>
+                    <data class="price">$29.00</data>
+                    <del class="del" value="39.00">$39.00</del>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="product-menu-card">
+                  <div class="card-banner">
+                    <img src="https://m.media-amazon.com/images/I/4170I9VYmiL._AC_UL400_.jpg" width="300" height="300"
+                       alt="Tplink wifi extender" class="w-100">
+                    <div class="badge">-25%</div>
+                  </div>
+                  <div class="wrapper">
+                    <p class="category">Gadget</p>
+                    <div class="rating-wrapper">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </div>
+                  <h3 class="h3 card-title">TP-Link WiFi Extender</h3>
+                  <div class="price-wrapper">
+                    <p class="price-text">Price:</p>
+                    <data class="price" value="49.00">$49.00</data>
+                    <del class="del">$69.00</del>
+                  </div>
+                </div>
+              </li>
+
+
+              <li>
+                <div class="product-menu-card">
+                  <div class="card-banner">
+                    <img src="https://m.media-amazon.com/images/I/819hAP4xoGS._AC_UL400_.jpg" width="300" height="300"
+                       alt="Samsung galaxy tab" class="w-100">
+                    <div class="badge">-24%</div>
+                  </div>
+                  <div class="wrapper">
+                    <p class="category">popular products</p>
+                    <div class="rating-wrapper">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </div>
+                  <h3 class="h3 card-title">Samsung Galaxy Tab</h3>
+                  <div class="price-wrapper">
+                    <p class="price-text">Price:</p>
+                    <data class="price" value="59.00 ">$180.00</data>
+                    <del class="del">$220.00</del>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="product-menu-card">
+                  <div class="card-banner">
+                    <img src="https://m.media-amazon.com/images/I/51Q0I+lvW9L._AC_UL400_.jpg" width="300" height="300"
+                       alt="Smart phone Stablizer" class="w-100">
+                    <div class="badge">-20%</div>
+                  </div>
+                  <div class="wrapper">
+                    <p class="category">Wholesale items</p>
+                    <div class="rating-wrapper">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </div>
+                  <h3 class="h3 card-title">Smartphone Stabilizer</h3>
+                  <div class="price-wrapper">
+                    <p class="price-text">Price:</p>
+                    <data class="price" value="159.00">$159.00</data>
+                    <del class="del">$200.00</del>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="product-menu-card">
+                  <div class="card-banner">
+                    <img src="https://m.media-amazon.com/images/I/41cS0nqSc6L._AC_UL400_.jpg" width="300" height="300"
+                       alt="smart security camera " class="w-100">
+                    <div class="badge">-14%</div>
+                  </div>
+                  <div class="wrapper">
+                    <p class="category">Frequently Purchased</p>
+                    <div class="rating-wrapper">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </div>
+                  <h3 class="h3 card-title">Smart Security Camera</h3>
+                  <div class="price-wrapper">
+                    <p class="price-text">Price:</p>
+                    <data class="price" value="49.00">$29.00</data>
+                    <del class="del">$34.00</del>
+                  </div>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+        </section>
+      </section>
+
+      <!--  #Delivery-->
+
+      <section class="section section-divider gray delivery">
+        <div class="container">
+          <div class="delivery-content">
+            <h2 class="h2 section-title">
+              A Moments Of Delivered On <span class="span">Right Time</span> & Place
+            </h2>
+            <p class="section-text">
+              Partnering with global shipping carriers and logistics providers ensures efficient delivery of e-commerce
+              products worldwide, while considering customs regulations and leveraging their expertise for a seamless
+              customer experience.
+            </p>
+            <ul class="delivery-list">
+              <li class="delivery-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+                <span class="span">Environmental sustainability</span>
+              </li>
+              <li class="delivery-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+                <span class="span">Online Tracking</span>
+              </li>
+              <li class="delivery-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+                <span class="span">
+                  Customer Satisfaction</span>
+              </li>
+            </ul>
+            <button class="btn btn-hover">Order Now</button>
+          </div>
+
+          <figure class="delivery-banner">
+            <img src="https://www.pngmart.com/files/7/Delivery-PNG-Image.png" width="100%" height="880" 
+              alt="delivery boy" class="w-100 delivery-img">
+          </figure>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="footer__addr">
+      <h1 class="footer__logo">TechOne</h1>
+      <div>
+        <p> Seamless online shopping experience</p>
+        <p> with a wide range of products.</p>
+        <br>
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-pinterest"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <ul class="footer__nav">
+      <li class="nav__item">
+        <h2 class="nav__title">Contact Info</h2>
+        <ul class="nav__ul">
+          <li>
+            <a href="#">+1 (054) 991-0978</a>
+          </li>
+          <li>
+            <a href="#">Info@TechOne.com</a>
+          </li>
+          <li>
+            <a href="#">154 Sheridon ST, Franklin, FL 3430</a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav__item">
+        <h2 class="nav__title">Opening Hours</h2>
+
+        <ul class="nav__ul">
+          <li>
+            <a href="#">MON-SAT: 09AM-11PM</a>
+          </li>
+
+          <li>
+            <a href="#">SAT 12:00: AM</a>
+          </li>
+
+          <li>
+            <a href="#">Sunday: Closed</a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav__item">
+        <h2 class="nav__title">Legal</h2>
+
+        <ul class="nav__ul">
+          <li>
+            <a href="#">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#">Terms of Services</a>
+          </li>
+
+          <li>
+            <a href="#">Support</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <div class="footer-bottom">
+      <div class="footer-container">
+        <p class="copyright-text">
+          &copy; 2022 <a href="#" class="copyright-link">Copyright</a> All Rights Reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- fixed button -->
+
+  <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+  <!-- custom js link-->
+
+  <script src="./assets/webpage/script.js" defer></script>
+
+  <!-- ionicon link-->
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
